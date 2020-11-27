@@ -1,0 +1,30 @@
+@import "../css/s_style.css";
+@import "../css/m_style.css";
+@import "../css/l_style.css";
+
+body {
+    margin: 0px;
+    min-width: 240px;
+    background-color: skyblue;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+input {
+    background-color: rgba(135, 235, 227, 0.493);
+}
+
+.myInput {
+    background-color: rgba(135, 235, 227, 0.493);
+}
+
+#generate {
+    color: rgb(5, 5, 5);
+    background-color: rgb(53, 119, 173);
+}
+
+.myInput {
+    font-family: Arial, Helvetica, sans-serif; 
+}

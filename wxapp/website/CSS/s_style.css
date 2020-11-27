@@ -1,0 +1,58 @@
+@media(max-width: 500px) {
+    .container {
+        font-size: 1.6em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-rows: 45px 80px 70px 220px 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "hd"
+        "im"
+        "nb"
+        "ct"
+        "ft";
+    }
+}
+
+.header {
+    grid-area: hd;
+    margin: 5px;
+    text-align: center;
+}
+
+.city-box {
+    font-size: 0.8em;
+    grid-area: nb;
+    margin: 5px;
+}
+
+.feel-box {
+    font-size: 0.8em;
+    grid-area: ct;
+    margin: 5px;
+}
+
+.data-box {
+    font-size: 0.8em;
+    grid-area: ft;
+    margin: 5px;
+}
+
+.logo {
+    grid-area: im;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10%;
+    height: auto;
+}
+
+#entryholder {
+    font-size: 00.8em;
+}

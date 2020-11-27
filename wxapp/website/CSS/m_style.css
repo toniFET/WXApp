@@ -1,0 +1,60 @@
+@media (min-width: 501px) and (max-width: 1100px) {
+    .container {
+        font-size: 2.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-rows: 80px 180px 300px 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hd hd hd"
+        "im im im"
+        "nb ct ct"
+        "ft ft ft";
+    }
+}
+
+.header {
+    grid-area: hd;
+    margin: 5px;
+    text-align: center;
+}
+
+.city-box {
+    font-size: 0.8em;
+    grid-area: nb;
+    margin: 5px;
+    text-align: center;
+}
+
+.feel-box {
+    font-size: 0.8em;
+    grid-area: ct;
+    text-align: center;
+    margin: 30px;
+}
+
+.data-box {
+    font-size: 0.8em;
+    grid-area: ft;
+    margin: 5px;
+    text-align: center;
+}
+
+.logo {
+    grid-area: im;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height: auto;
+}
+
+#entryholder {
+    font-size: 00.8em;
+}

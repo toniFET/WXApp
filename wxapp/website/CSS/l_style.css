@@ -1,0 +1,57 @@
+@media (min-width: 1101px) {
+    .container {
+        font-size: 3em;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-rows: 100px 150px 170px 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "hd hd hd hd"
+        "im nb nb nb"
+        "im ct ct ct"
+        "ft ft ft ft";
+    }
+}
+
+.header {
+    grid-area: hd;
+    margin: 5px;
+    text-align: center;
+}
+
+.city-box {
+    font-size: 0.8em;
+    grid-area: nb;
+    margin: 5px;
+}
+
+.feel-box {
+    font-size: 0.8em;
+    grid-area: ct;
+    margin: 5px;
+}
+
+.data-box {
+    font-size: 0.8em;
+    grid-area: ft;
+    margin: 5px;
+}
+
+.logo {
+    grid-area: im;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+#entryholder {
+    font-size: 00.8em;
+}
