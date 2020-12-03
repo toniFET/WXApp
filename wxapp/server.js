@@ -39,17 +39,17 @@ function getData(req,res){
 };
 
 //Post Route
-app.post("/all", addData);
+app.post("/add", addData);
 
 function addData(req,res){
 
     newEntry = {
-        temperature: request.body.temperature,
-        date: request.body.date,
-        userInput: request.body.userInput,
+        temperature: req.body.temperature,
+        date: req.body.date,
+        userInput: req.body.userInput,
     };
 
-    projectData.push(newEntry)
+    projectData = newEntry;
     res.send(projectData)
     console.log(projectData)
 
