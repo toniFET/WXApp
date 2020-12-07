@@ -40,13 +40,10 @@
 
 .logo {
     grid-area: im;
-    text-align: center;
-}
-
-.logo-img {
-    max-width: 50%;
-    height: auto;
-    position: relative;
+    background-image:url(/website/IMG/station.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center center;
 }
 
 #entryholder {

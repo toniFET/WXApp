@@ -42,12 +42,10 @@
 
 .logo {
     grid-area: im;
-    text-align: center;
-}
-
-.logo-img {
-    max-width: 100px;
-    height: auto;
+    background-image:url(station.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center center;
 }
 
 #entryholder {

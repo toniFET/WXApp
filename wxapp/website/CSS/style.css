@@ -1,6 +1,6 @@
-@import "../css/s_style.css";
-@import "../css/m_style.css";
 @import "../css/l_style.css";
+@import "../css/m_style.css";
+@import "../css/s_style.css";
 
 body {
     margin: 0px;
