@@ -40,7 +40,7 @@
 
 .logo {
     grid-area: im;
-    background-image:url(/website/IMG/station.png);
+    background-image:url(/../IMG/station.png);
     background-size:contain;
     background-repeat: no-repeat;
     background-position:center center;
